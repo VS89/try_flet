@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "try-flet"
+version = "0.1.0"
+description = "sandbox flet and python"
+authors = ["valentin.s <spbvalek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "try_flet"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flet = "^0.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
